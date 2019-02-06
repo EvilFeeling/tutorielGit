@@ -6,6 +6,8 @@ public class Application extends Frame {
 		new Application();
 	}
 	
+	// Gwen Love sur toi mec...
+	
 	public Application() {
 		super();
 		

@@ -7,6 +7,7 @@ public class Application extends Frame {
 	}
 	
 	// Gwen Love sur toi mec...
+
 	
 	public Application() {
 		super();
@@ -16,7 +17,9 @@ public class Application extends Frame {
 		Vue vue = new Vue();
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
+
 		this.setTitle("Vive l'argent !................... Connard");
+
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);

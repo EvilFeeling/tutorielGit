@@ -7,6 +7,7 @@ public class Application extends Frame {
 	}
 	
 	// Gwen Love sur toi mec...
+
 	
 	public Application() {
 		super();
@@ -16,7 +17,7 @@ public class Application extends Frame {
 		Vue vue = new Vue();
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
-		this.setTitle("tutoriel git");
+		this.setTitle("T'es naze on choisit mon titre il é mieux");
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
